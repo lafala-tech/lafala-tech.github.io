@@ -2,8 +2,6 @@ import { Inter, JetBrains_Mono, Noto_Sans_SC } from 'next/font/google';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { routing, type Locale } from '@/i18n/routing';
 import { Header } from '@/components/site/header';
@@ -71,8 +69,6 @@ export default async function LocaleLayout({
           <main id="main">{children}</main>
           <Footer locale={locale} />
         </NextIntlClientProvider>
-        <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   );

@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: t('title'),
     description: t('description'),
     alternates: {
-      canonical: locale === 'zh' ? '/contact' : `/${locale}/contact`,
-      languages: { zh: '/contact', en: '/en/contact' },
+      canonical: `/${locale}/contact`,
+      languages: { zh: '/zh/contact', en: '/en/contact' },
     },
   };
 }
