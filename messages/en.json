@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "languageSwitcher": "Switch language",
+    "drawerDescription": "Site navigation"
+  },
+  "common": {
+    "cta": {
+      "exploreProduct": "Explore product",
+      "bookDemo": "Book a demo",
+      "contactUs": "Contact us",
+      "tryNow": "Request a trial",
+      "viewProduct": "Learn more"
+    },
+    "labels": {
+      "internalBeta": "Beta customer",
+      "comingSoon": "Coming soon",
+      "demo": "Demo"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Run your ERP by asking",
+      "description": "Lafala ERP — an AI-first SaaS ERP purpose-built for whole-house custom furniture SMBs. Press ⌘K and let AI run your CRM, quoting, contracts, and projects."
+    },
+    "hero": {
+      "eyebrow": "AI-FIRST · BUILT FOR CUSTOM FURNITURE",
+      "title": "Run your ERP by asking, not clicking",
+      "titleAccent": "by asking",
+      "sub": "Customers, quotes, contracts, projects, performance — press ⌘K and say a sentence. Self-hosted. Your data stays yours.",
+      "ctaPrimary": "Explore product",
+      "ctaSecondary": "Book a demo"
+    },
+    "cmdkDemo": {
+      "url": "app.lafala.tech/quotations/Q-2026-018",
+      "hintLabel": "Press ⌘K to invoke AI",
+      "scenarios": [
+        {
+          "prompt": "Apply 10% off to the whole quote",
+          "toolName": "set_overall_adjustment",
+          "toolLabel": "Calling tool: set_overall_adjustment",
+          "beforeTotal": 113273,
+          "afterTotal": 101946,
+          "diffLabel": "Discount −10%",
+          "diffAmount": -11327,
+          "toastLabel": "Discount applied"
+        },
+        {
+          "prompt": "New customer Mrs. Wang, +86 138-1234-5678, 3BR 2LR",
+          "toolName": "create_customer",
+          "toolLabel": "Calling tool: create_customer",
+          "beforeTotal": 113273,
+          "afterTotal": 113273,
+          "diffLabel": "Created customer Mrs. Wang",
+          "diffAmount": 0,
+          "toastLabel": "Customer record created"
+        },
+        {
+          "prompt": "Turn this quote into a contract, ¥50,000 deposit received",
+          "toolName": "record_signing",
+          "toolLabel": "Calling tool: record_signing",
+          "beforeTotal": 113273,
+          "afterTotal": 113273,
+          "diffLabel": "Contract drafted · ¥50,000 deposit received",
+          "diffAmount": 50000,
+          "toastLabel": "5-step signing done in one prompt"
+        }
+      ],
+      "currency": "¥",
+      "rows": [
+        { "name": "Master bedroom wardrobe", "qty": "2.4×2.7m", "amount": 28600 },
+        { "name": "Guest bedroom desk unit", "qty": "1.8×0.6m", "amount": 9800 },
+        { "name": "Entryway shoe cabinet", "qty": "1.2×2.4m", "amount": 12400 },
+        { "name": "Dining sideboard (Blum hardware)", "qty": "2.0×0.4m", "amount": 14600 },
+        { "name": "Kitchen tall appliance unit", "qty": "0.6×2.4m", "amount": 8900 }
+      ],
+      "totalLabel": "Total",
+      "replay": "Replay"
+    },
+    "stats": {
+      "items": [
+        { "value": "37", "label": "AI tools, covering every ERP action" },
+        { "value": "4", "label": "levels of nested quoting, built for custom furniture" },
+        { "value": "80+", "label": "SKUs · 12 top-tier brands" },
+        { "value": "100%", "label": "self-hosted · your data, your machine" }
+      ]
+    },
+    "pillars": {
+      "title": "Three things that stop a custom-furniture shop from running on memory",
+      "items": [
+        {
+          "icon": "sparkles",
+          "title": "AI isn't a sidebar — it's the operating layer",
+          "body": "Every page summons Claude with ⌘K. 37 tools cover customers, quoting, contracts, projects, payments. Speak once, the result lands on the page."
+        },
+        {
+          "icon": "calculator",
+          "title": "A quoting engine made for whole-house custom furniture",
+          "body": "Quote → zone → cabinet → line. Four levels deep, seven formulas, cascading recalculation. 80+ SKUs and 12 brands ready to drop in. Export Excel and PDF in one click."
+        },
+        {
+          "icon": "server",
+          "title": "Self-hosted. Your data, your machine.",
+          "body": "One docker compose up and you're running. Customers, contract amounts, salesperson commissions — none of it leaves your server. White-label, multi-tenant. One codebase, every shop branded its own way."
+        }
+      ]
+    },
+    "modules": {
+      "title": "Six modules — pre-sale to post-delivery",
+      "items": [
+        {
+          "key": "crm",
+          "name": "CRM",
+          "summary": "8-stage lifecycle kanban, 10 source channels, QR-code demand form",
+          "points": [
+            "Drag-to-advance: lead → contacted → visited → measured → quoted → signed",
+            "Channel attribution: Douyin, Xiaohongshu, WeChat, building canvassing…",
+            "QR sent to the customer's phone for self-serve 18-field intake"
+          ]
+        },
+        {
+          "key": "quotation",
+          "name": "Quoting",
+          "summary": "4-level nesting + 7 formulas + one-click Excel/PDF",
+          "points": [
+            "Cascading recalculation: change one dimension, the whole quote updates",
+            "Whole-quote discount, add-ons, complimentary lines (boss gifts) — one click each",
+            "Demo mode: large type, internal info hidden, hand the laptop to the client"
+          ]
+        },
+        {
+          "key": "contract",
+          "name": "Contracts",
+          "summary": "Draft → signed → delivered → closed",
+          "points": [
+            "Deposit / progress / final-payment tracking",
+            "Cashflow dashboard at a glance",
+            "Scanned contracts stored inline as attachments"
+          ]
+        },
+        {
+          "key": "project",
+          "name": "Project delivery",
+          "summary": "7-stage kanban: production → shipped → installing → accepted → closed",
+          "points": [
+            "Timestamps per project: production, shipping, install, acceptance",
+            "Design files categorized: floor plan, elevation, CAD, renders",
+            "5-state goods state machine"
+          ]
+        },
+        {
+          "key": "team",
+          "name": "Team performance",
+          "summary": "Per-salesperson KPI cards, auto-crowns the #1",
+          "points": [
+            "Customer count, signed deals, conversion rate, estimated commission",
+            "3 / 6 / 12 / 24-month rolling or year filter",
+            "Drill down to every salesperson's customer list"
+          ]
+        },
+        {
+          "key": "designer",
+          "name": "Designer workstation",
+          "summary": "Dedicated view, paced by delivery",
+          "points": [
+            "This week / in progress / delivered-this-month KPIs",
+            "Design file types · review meetings (floor plan / elevation / lighting)",
+            "Co-works with sales, doesn't take their permissions"
+          ]
+        }
+      ]
+    },
+    "aiQuote": {
+      "eyebrow": "AI-FIRST PHILOSOPHY",
+      "title": "Pages are state viewers. AI is the operator.",
+      "body": "Traditional ERPs bolt AI on as a chat sidebar. We invert it — anything the UI can do, AI can do, and more. Half-filled form? Finish it with a sentence. Five-step signing flow? One prompt.",
+      "linkLabel": "See how AI does it"
+    },
+    "testimonial": {
+      "quote": "We moved off Feishu sheets, WeChat threads, and the boss's brain into this in three weeks. The biggest change: salespeople now check quotes themselves, because the math is finally on their side.",
+      "author": "Leo",
+      "role": "General Manager",
+      "company": "Mileoo Intl. · Custom Furniture"
+    },
+    "cta": {
+      "title": "Let AI write your next quote",
+      "sub": "30-minute demo. You'll know inside that whether it fits your shop.",
+      "primary": "Book a demo",
+      "secondary": "Explore product"
+    }
+  },
+  "product": {
+    "meta": {
+      "title": "Product",
+      "description": "Everything Lafala ERP does: global ⌘K AI, 4-level nested quoting, contract payments, project delivery, team performance, and full self-hosting."
+    },
+    "hero": {
+      "eyebrow": "PRODUCT",
+      "title": "An AI-first ERP built for whole-house custom furniture",
+      "sub": "Roll up Feishu, Excel, WeChat threads, and the boss's memory — into one system you own."
+    },
+    "toc": {
+      "ai": "AI operating layer",
+      "quotation": "Quoting engine",
+      "modules": "Core modules",
+      "replaces": "What it replaces",
+      "deployment": "Self-hosted",
+      "whitelabel": "Multi-tenant white-label",
+      "stack": "Tech stack"
+    },
+    "sections": {
+      "ai": {
+        "eyebrow": "AI-FIRST",
+        "title": "AI isn't a sidebar — it's the operating layer",
+        "sub": "⌘K everywhere. AI knows what page you're on, which customer you're looking at, what field is empty — and gets the work done.",
+        "features": [
+          {
+            "icon": "sparkles",
+            "title": "Global ⌘K shortcut",
+            "body": "Available on every page after login. Skipping only the login and a few raw form pages."
+          },
+          {
+            "icon": "wrench",
+            "title": "37 tools, full-stack coverage",
+            "body": "Create customers, edit quotes, record payments, advance projects, query performance. Route-aware injection — AI sees only the tools that fit this page."
+          },
+          {
+            "icon": "wand",
+            "title": "Extract mode for form filling",
+            "body": "On /customers/new and similar pages, toggle 🪄 Extract. AI parses your sentence into a structured payload and patches your live React form."
+          },
+          {
+            "icon": "share",
+            "title": "MCP integration",
+            "body": "Same tools exposed as an MCP stdio server. Drive the ERP from Claude Desktop if that's where you live."
+          }
+        ]
+      },
+      "quotation": {
+        "eyebrow": "QUOTING ENGINE",
+        "title": "A 4-level nested quoting engine, purpose-built",
+        "sub": "Not a generic ERP retrofitted — built from the actual signing flow of a real custom-furniture shop.",
+        "nesting": {
+          "title": "Four-level nesting",
+          "levels": [
+            { "name": "Quotation", "detail": "One per customer; keep multiple versions side-by-side" },
+            { "name": "Zone", "detail": "Master bedroom, guest room, entryway, dining…" },
+            { "name": "Cabinet", "detail": "Wardrobe, desk unit, bar cabinet, tall pantry" },
+            { "name": "Line", "detail": "Dimensions, unit price, hardware, add-ons" }
+          ]
+        },
+        "formulas": {
+          "title": "Seven formulas",
+          "items": [
+            "H × W",
+            "H × W × coefficient",
+            "Projected area minus deductions",
+            "Direct input",
+            "Quantity × unit price",
+            "Zone subtotal",
+            "Add-on charge"
+          ]
+        },
+        "exports": {
+          "title": "One-click export",
+          "items": [
+            { "name": "Excel (gold-border style)", "body": "Clients get a real spreadsheet — not a raw backend dump" },
+            { "name": "PDF (A4 layout)", "body": "Editorial-grade typography; send straight to the client" }
+          ]
+        }
+      },
+      "modules": {
+        "eyebrow": "CORE MODULES",
+        "title": "Replaces Feishu, Excel, WeChat — and the boss's memory",
+        "sub": "Pre-sale to post-delivery, recorded in one place."
+      },
+      "replaces": {
+        "eyebrow": "WHAT IT REPLACES",
+        "title": "One system, four tools retired",
+        "items": [
+          { "name": "Feishu spreadsheets", "body": "Customer and sales data scattered across sheets with no link" },
+          { "name": "Excel quoting", "body": "One formula change blows up the whole quote; client edits never sync back" },
+          { "name": "WeChat follow-ups", "body": "Chat history is unsearchable; a new salesperson starts from zero" },
+          { "name": "The boss's memory", "body": "Tracking every customer in your head works until headcount catches up" }
+        ]
+      },
+      "deployment": {
+        "eyebrow": "SELF-HOSTED",
+        "title": "One `docker compose up`. Your data, your machine.",
+        "sub": "Phone numbers, contract amounts, commissions — these don't belong on someone else's cloud.",
+        "command": "docker compose --profile prod up -d",
+        "options": [
+          {
+            "name": "Single-machine",
+            "body": "Run everything on one server. Right for shops under 30 people.",
+            "tag": "Recommended"
+          },
+          {
+            "name": "Public cloud",
+            "body": "Cloud VM with a domain, so salespeople can use it on the road",
+            "tag": ""
+          },
+          {
+            "name": "VPC",
+            "body": "Fully internal, traffic via VPN. Right for chains and franchises.",
+            "tag": ""
+          }
+        ]
+      },
+      "whitelabel": {
+        "eyebrow": "MULTI-TENANT WHITE-LABEL",
+        "title": "One codebase, branded per tenant at runtime",
+        "sub": "Brand name, logo, primary color all live in `app_config`. Flip a row — no rebuild, no new Docker image.",
+        "features": [
+          "Runtime brand switching (no restart)",
+          "Logo / primary color / favicon fully customizable",
+          "Email templates rendered per brand",
+          "Demo mode toggleable independently"
+        ]
+      },
+      "stack": {
+        "eyebrow": "TECH STACK",
+        "title": "Built on Claude, LangGraph and MCP",
+        "sub": "Latest, most reliable open-source and commercial components. Built to still run tomorrow.",
+        "items": [
+          "Next.js 16",
+          "React 19",
+          "TypeScript",
+          "Tailwind CSS v4",
+          "FastAPI",
+          "Python 3.13",
+          "SQLAlchemy 2.0",
+          "PostgreSQL / SQLite",
+          "Claude (Anthropic)",
+          "LangChain 1.3",
+          "LangGraph",
+          "MCP"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Seeing it once beats reading ten pages",
+      "sub": "Free 30-minute online demo",
+      "primary": "Book a demo",
+      "secondary": "Contact us"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Talk to the Lafala team. 30-minute demo, response within one business day."
+    },
+    "hero": {
+      "eyebrow": "CONTACT",
+      "title": "Let AI write your next quote",
+      "sub": "Tell us about your shop. In 30 minutes we'll walk you through how the system helps."
+    },
+    "card": {
+      "primaryLabel": "Email us",
+      "primaryButton": "Send email →",
+      "primaryNote": "Reply within one business day",
+      "secondaryLabel": "Or scan to chat on WeChat",
+      "secondaryNote": "Mention \"Lafala ERP\""
+    },
+    "qr": {
+      "title": "WeChat",
+      "subtitle": "Scan to add our customer success WeChat. Mention \"Lafala ERP\".",
+      "placeholderLabel": "WeChat QR · coming soon"
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "How much does Lafala ERP cost?",
+          "a": "Priced by company size and deployment. After a 30-minute demo we'll give you a concrete proposal. No tier menu."
+        },
+        {
+          "q": "Can I try it first?",
+          "a": "The demo uses our sample data. If you send over a sample of yours, we'll preload it so the demo runs on your real scenarios."
+        },
+        {
+          "q": "How does deployment work?",
+          "a": "One Docker Compose command. Typically a 4-core 8GB Linux server — enough for a custom-furniture shop for over a year."
+        },
+        {
+          "q": "Can I import data from Excel?",
+          "a": "Yes. We provide Excel templates for customers, products, and quotes, and help with initial migration."
+        },
+        {
+          "q": "What about ongoing support?",
+          "a": "Three months of free white-glove onboarding (remote training plus a WeChat support group). After that, an annual fee covers upgrades and remote support."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Lafala is a tech company. We're rebuilding business software with AI, starting with whole-house custom furniture.",
+    "navHeading": "Navigation",
+    "contactHeading": "Contact",
+    "contactLocation": "China",
+    "replySla": "Reply within one business day",
+    "copy": "© {year} Lafala. All rights reserved.",
+    "builtWith": "Built with Next.js + Claude"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has moved.",
+    "backHome": "Back to home"
+  }
+}
