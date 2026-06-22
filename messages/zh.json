@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "首页",
+    "product": "产品",
+    "contact": "联系",
+    "openMenu": "打开菜单",
+    "languageSwitcher": "切换语言",
+    "drawerDescription": "网站导航"
+  },
+  "common": {
+    "cta": {
+      "exploreProduct": "查看产品",
+      "bookDemo": "预约演示",
+      "contactUs": "联系我们",
+      "tryNow": "申请试用",
+      "viewProduct": "了解更多"
+    },
+    "labels": {
+      "internalBeta": "内测客户",
+      "comingSoon": "即将上线",
+      "demo": "演示"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "用 AI 操作整个 ERP",
+      "description": "Lafala ERP——专为全屋定制中小企业打造的 AI-first SaaS ERP。按下 ⌘K，让 AI 替你跑客户、报价、合同和项目。"
+    },
+    "hero": {
+      "eyebrow": "AI-FIRST · 专为全屋定制",
+      "title": "用一句话，跑完整张 ERP",
+      "titleAccent": "整张 ERP",
+      "sub": "客户、报价、合同、项目、绩效——按下 ⌘K，说一句话就好。私有部署，数据完全在你手里。",
+      "ctaPrimary": "查看产品",
+      "ctaSecondary": "预约演示"
+    },
+    "cmdkDemo": {
+      "url": "app.lafala.tech/quotations/Q-2026-018",
+      "hintLabel": "按 ⌘K 召唤 AI",
+      "scenarios": [
+        {
+          "prompt": "整体打 9 折",
+          "toolName": "set_overall_adjustment",
+          "toolLabel": "调用工具：set_overall_adjustment",
+          "beforeTotal": 113273,
+          "afterTotal": 101946,
+          "diffLabel": "折扣 −10%",
+          "diffAmount": -11327,
+          "toastLabel": "已应用 9 折"
+        },
+        {
+          "prompt": "新客户 王太太 138-1234-5678 三房两厅",
+          "toolName": "create_customer",
+          "toolLabel": "调用工具：create_customer",
+          "beforeTotal": 113273,
+          "afterTotal": 113273,
+          "diffLabel": "新建客户 王太太",
+          "diffAmount": 0,
+          "toastLabel": "已创建客户档案"
+        },
+        {
+          "prompt": "本单转合同收 5 万定金",
+          "toolName": "record_signing",
+          "toolLabel": "调用工具：record_signing",
+          "beforeTotal": 113273,
+          "afterTotal": 113273,
+          "diffLabel": "合同已建 · 收 ¥50,000 定金",
+          "diffAmount": 50000,
+          "toastLabel": "5 步合同流程一次完成"
+        }
+      ],
+      "currency": "¥",
+      "rows": [
+        { "name": "主卧整体衣柜", "qty": "2.4×2.7m", "amount": 28600 },
+        { "name": "次卧书桌柜", "qty": "1.8×0.6m", "amount": 9800 },
+        { "name": "玄关鞋柜", "qty": "1.2×2.4m", "amount": 12400 },
+        { "name": "餐边柜（百隆 五金）", "qty": "2.0×0.4m", "amount": 14600 },
+        { "name": "厨房电器塔柜", "qty": "0.6×2.4m", "amount": 8900 }
+      ],
+      "totalLabel": "总计",
+      "replay": "重播"
+    },
+    "stats": {
+      "items": [
+        { "value": "37", "label": "个 AI 工具，覆盖所有 ERP 操作" },
+        { "value": "4", "label": "级嵌套报价，专为全屋定制设计" },
+        { "value": "80+", "label": "产品 · 12 个一线品牌" },
+        { "value": "100%", "label": "私有部署 · 数据完全自主" }
+      ]
+    },
+    "pillars": {
+      "title": "三件事，让全屋定制不再靠老板的记忆力",
+      "items": [
+        {
+          "icon": "sparkles",
+          "title": "AI 不是侧边栏，AI 就是操作系统",
+          "body": "每一个页面都能 ⌘K 召唤 Claude。37 个工具覆盖客户、报价、合同、项目、收款；说一句话，结果直接反映在页面上。"
+        },
+        {
+          "icon": "calculator",
+          "title": "为全屋定制量身打造的报价引擎",
+          "body": "报价单 → 区域 → 柜体 → 行 四级嵌套，7 种公式自动联动。80+ 产品 · 12 品牌内置库直接选用，导出 Excel 和 PDF 即可发给客户。"
+        },
+        {
+          "icon": "server",
+          "title": "私有部署，数据完全自主",
+          "body": "一行 docker compose up 跑起来。客户信息、合同金额、销售人员都不出你的服务器。可白标、多租户，一套代码服务多家店。"
+        }
+      ]
+    },
+    "modules": {
+      "title": "六个模块，覆盖签单前到交付后",
+      "items": [
+        {
+          "key": "crm",
+          "name": "CRM 客户",
+          "summary": "8 阶段生命周期看板，10 类来源追溯，公开二维码需求表单",
+          "points": [
+            "拖拽推进：线索 → 接触 → 上门 → 量房 → 报价 → 签单",
+            "微信、抖音、小红书、扫楼……来源一目了然",
+            "二维码发给客户手机自助填 18 项需求"
+          ]
+        },
+        {
+          "key": "quotation",
+          "name": "报价",
+          "summary": "四级嵌套 + 7 种公式 + 一键 Excel/PDF",
+          "points": [
+            "联动重算：改一处尺寸全单更新",
+            "整单折扣、增项、赠送行（老板赠品）一键标记",
+            "演示模式：大字体、隐藏内部信息给客户看"
+          ]
+        },
+        {
+          "key": "contract",
+          "name": "合同",
+          "summary": "草拟 → 签订 → 交付 → 结案",
+          "points": [
+            "定金 / 进度款 / 尾款三段收款追踪",
+            "现金流仪表盘一眼看清",
+            "合同扫描件直接附件存档"
+          ]
+        },
+        {
+          "key": "project",
+          "name": "项目交付",
+          "summary": "7 阶段看板：投产 → 出货 → 安装 → 验收 → 结案",
+          "points": [
+            "每个项目带时间戳：投产、发货、安装、验收",
+            "设计文件分类：平面、立面、CAD、效果图",
+            "5 状态货品状态机"
+          ]
+        },
+        {
+          "key": "team",
+          "name": "团队绩效",
+          "summary": "每个销售的 KPI 卡，自动 No.1 加冕",
+          "points": [
+            "客户数、签单数、转化率、提成估算",
+            "3 / 6 / 12 / 24 月滚动 或 按年筛选",
+            "可下钻到每个销售的客户清单"
+          ]
+        },
+        {
+          "key": "designer",
+          "name": "设计师工位",
+          "summary": "独立视图，按交付节奏排期",
+          "points": [
+            "本周交付、进行中、本月已交付 KPI",
+            "设计文件类型、评审会议（平面 / 立面 / 灯光）",
+            "和销售协同，不抢权限"
+          ]
+        }
+      ]
+    },
+    "aiQuote": {
+      "eyebrow": "AI-FIRST 哲学",
+      "title": "页面只是状态展示，AI 才是操作系统",
+      "body": "传统 ERP 把 AI 当聊天侧栏。我们反过来——每一个 UI 能做的事 AI 都能做，而且做得更多。把表单填到一半？说一句话补完。要做 5 步合同流程？一句话搞定。",
+      "linkLabel": "看 AI 怎么做"
+    },
+    "testimonial": {
+      "quote": "我们从飞书表格、微信聊天和老板的脑子里搬到这套系统，三周。最大的改变是销售开始主动看报价，因为他们能算账了。",
+      "author": "Leo",
+      "role": "总经理",
+      "company": "米黎国际 · 全屋定制"
+    },
+    "cta": {
+      "title": "让 AI 替你跑下一笔报价",
+      "sub": "演示 30 分钟，看完就知道适不适合你的店",
+      "primary": "预约演示",
+      "secondary": "查看产品"
+    }
+  },
+  "product": {
+    "meta": {
+      "title": "产品",
+      "description": "Lafala ERP 的全部能力：⌘K 全局 AI、四级嵌套报价、合同付款、项目交付、团队绩效，以及完全的私有部署。"
+    },
+    "hero": {
+      "eyebrow": "产品",
+      "title": "为全屋定制打造的 AI-first ERP",
+      "sub": "把飞书、Excel、微信群和老板的记忆力，全部装进一套自己的系统。"
+    },
+    "toc": {
+      "ai": "AI 操作模式",
+      "quotation": "报价引擎",
+      "modules": "核心模块",
+      "replaces": "替代谁",
+      "deployment": "私有部署",
+      "whitelabel": "多租户白标",
+      "stack": "技术栈"
+    },
+    "sections": {
+      "ai": {
+        "eyebrow": "AI-FIRST",
+        "title": "AI 不是侧边栏，AI 就是操作系统",
+        "sub": "每个页面都能 ⌘K 唤起。AI 知道你在哪个页面、看哪个客户、什么字段还空着——然后把活干完。",
+        "features": [
+          {
+            "icon": "sparkles",
+            "title": "⌘K 全局快捷键",
+            "body": "登录后，每一页都有。除了登录页和填表页，AI 始终一键唤起。"
+          },
+          {
+            "icon": "wrench",
+            "title": "37 个工具，覆盖全栈",
+            "body": "建客户、改报价、记付款、推进项目、查绩效，工具按页面动态注入，AI 只看到当前能做的事。"
+          },
+          {
+            "icon": "wand",
+            "title": "Extract 模式智能填表",
+            "body": "在 /customers/new 这类页面切到 🪄 Extract，AI 把你说的话变成结构化字段，直接补进 React 表单。"
+          },
+          {
+            "icon": "share",
+            "title": "MCP 集成",
+            "body": "同一套工具通过 MCP stdio 暴露，老板可以直接在 Claude Desktop 里把 ERP 跑起来。"
+          }
+        ]
+      },
+      "quotation": {
+        "eyebrow": "报价引擎",
+        "title": "为全屋定制而生的四级嵌套报价",
+        "sub": "不是把通用 ERP 改一改，是从全屋定制的实际签单流程里长出来的。",
+        "nesting": {
+          "title": "四级嵌套",
+          "levels": [
+            { "name": "报价单", "detail": "客户一份单子，可保留多版本对比" },
+            { "name": "区域", "detail": "主卧、次卧、玄关、餐厅……" },
+            { "name": "柜体", "detail": "衣柜、书桌柜、酒柜、塔柜" },
+            { "name": "行项", "detail": "尺寸、单价、五金、附加" }
+          ]
+        },
+        "formulas": {
+          "title": "7 种公式",
+          "items": [
+            "高 × 宽",
+            "高 × 宽 × 系数",
+            "投影面积扣除",
+            "直接录入",
+            "数量 × 单价",
+            "区域汇总",
+            "附加项"
+          ]
+        },
+        "exports": {
+          "title": "一键导出",
+          "items": [
+            { "name": "Excel（金边样式）", "body": "客户拿到的是一份能看的 Excel，不是后台导出文件" },
+            { "name": "PDF（A4 排版）", "body": "排版直接对得起样板间，发给客户不用改" }
+          ]
+        }
+      },
+      "modules": {
+        "eyebrow": "核心模块",
+        "title": "替代飞书、Excel、微信，和老板的记忆力",
+        "sub": "签单前到交付后，一套系统记完。"
+      },
+      "replaces": {
+        "eyebrow": "替代谁",
+        "title": "一套系统，替代四件工具",
+        "items": [
+          { "name": "飞书表格", "body": "客户和销售数据散落不同 sheet，没法关联" },
+          { "name": "Excel 报价", "body": "改一行公式炸全单，发给客户改完没法同步回来" },
+          { "name": "微信跟进", "body": "聊天记录翻不到，新销售接手等于从零开始" },
+          { "name": "老板的记忆力", "body": "靠脑子记每个客户进度——人多了就崩了" }
+        ]
+      },
+      "deployment": {
+        "eyebrow": "私有部署",
+        "title": "一行 docker compose up，数据 100% 在你手里",
+        "sub": "客户电话号码、合同金额、销售提成——这些数据不该上别人的云。",
+        "command": "docker compose --profile prod up -d",
+        "options": [
+          {
+            "name": "单机部署",
+            "body": "一台服务器跑全部服务，适合 <30 人的店",
+            "tag": "推荐"
+          },
+          {
+            "name": "公网部署",
+            "body": "云服务器 + 域名，销售在外能用",
+            "tag": ""
+          },
+          {
+            "name": "VPC 部署",
+            "body": "完全内网，进出都走 VPN，适合连锁公司",
+            "tag": ""
+          }
+        ]
+      },
+      "whitelabel": {
+        "eyebrow": "多租户白标",
+        "title": "一套代码，每个客户一个品牌",
+        "sub": "品牌名、Logo、主色调都在 app_config 表里——改一行配置即可换品牌，不用重新打 Docker。",
+        "features": [
+          "运行时品牌切换（无需重启）",
+          "Logo / 主色调 / Favicon 全自定义",
+          "邮件模板按品牌渲染",
+          "演示模式可独立隐藏"
+        ]
+      },
+      "stack": {
+        "eyebrow": "技术栈",
+        "title": "建立在 Claude、LangGraph 和 MCP 之上",
+        "sub": "选择最新、最稳的开源 / 商业组件，明天还能跑。",
+        "items": [
+          "Next.js 16",
+          "React 19",
+          "TypeScript",
+          "Tailwind CSS v4",
+          "FastAPI",
+          "Python 3.13",
+          "SQLAlchemy 2.0",
+          "PostgreSQL / SQLite",
+          "Claude (Anthropic)",
+          "LangChain 1.3",
+          "LangGraph",
+          "MCP"
+        ]
+      }
+    },
+    "cta": {
+      "title": "看一遍，比读十页文档清楚",
+      "sub": "30 分钟在线演示，免费",
+      "primary": "预约演示",
+      "secondary": "联系我们"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "联系我们",
+      "description": "和 Lafala 团队聊聊。30 分钟演示，1 个工作日内回复。"
+    },
+    "hero": {
+      "eyebrow": "联系",
+      "title": "让 AI 替你做下一笔报价",
+      "sub": "把店里的实际情况告诉我们，我们 30 分钟之内带你过一遍系统怎么帮上忙。"
+    },
+    "card": {
+      "primaryLabel": "发邮件给我们",
+      "primaryButton": "发邮件 →",
+      "primaryNote": "我们 1 个工作日内回复",
+      "secondaryLabel": "或者，扫码加微信",
+      "secondaryNote": "备注「Lafala ERP」"
+    },
+    "qr": {
+      "title": "微信咨询",
+      "subtitle": "扫码加客服微信，备注「Lafala ERP」",
+      "placeholderLabel": "微信二维码 · 即将上线"
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "q": "Lafala ERP 多少钱？",
+          "a": "按公司规模和部署方式定价。30 分钟演示后会给你一个具体方案，没有套餐式定价。"
+        },
+        {
+          "q": "可以先试用吗？",
+          "a": "演示用我们的 demo 数据；如果你愿意把样板数据发我们，我们可以预先配好，演示时直接看你自己的场景。"
+        },
+        {
+          "q": "怎么部署？",
+          "a": "Docker Compose 一行命令。最常见是一台 4 核 8G 的 Linux 服务器，全屋定制店通常够用一年以上。"
+        },
+        {
+          "q": "现有 Excel 数据能导进去吗？",
+          "a": "可以。客户、产品、报价的 Excel 模板都有；我们可以协助前期数据迁移。"
+        },
+        {
+          "q": "之后还有售后吗？",
+          "a": "上线后 3 个月免费陪跑（远程培训 + 微信群答疑）。之后年费包含版本升级和远程支持。"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Lafala 是一家科技公司。我们用 AI 重新做企业软件，从全屋定制行业开始。",
+    "navHeading": "导航",
+    "contactHeading": "联系",
+    "contactLocation": "中国",
+    "replySla": "1 个工作日内回复",
+    "copy": "© {year} Lafala. 保留所有权利。",
+    "builtWith": "用 Next.js + Claude 构建"
+  },
+  "notFound": {
+    "title": "页面没找到",
+    "description": "你访问的地址不存在或已被移除。",
+    "backHome": "回到首页"
+  }
+}
